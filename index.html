@@ -3,470 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Abdullah Mukmin - Personal Portfolio</title>
-    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
-    <link href="styles.css" rel="stylesheet" />
-  </head>
-  <body class="bg-neutral-900">
-    <!-- overall layout -->
-    <div class="flex flex-row gap-x-4 px-20 py-20">
-      <!-- left side -->
-      <div
-        class="basis-96 h-200 w-24 bg-zinc-800 border border-t-1 border-gray-700 rounded-2xl text-xl text-white font-medium"
-      >
-        <!-- upper left side -->
-        <div
-          class="relative flex flex-col items-center justify-center gap-y-4 h-75 bg-neutral-800 rounded-2xl"
-        >
-          <!-- profile photo -->
-          <img
-            src="assets/profile-photo.jpg"
-            alt="Profile Photo"
-            class="relative top-1 w-30 h-30 rounded-lg shadow-md"
-          />
-          <!-- my name -->
-          <div
-            class="relative bottom-4 flex justify-center items-center h-18 w-full bg-neutral-800 rounded-2xl"
-          >
-            <h1 class="font-sans font-semibold text-4xl text-center">
-              Abdullah Mukmin
-            </h1>
-          </div>
-          <!-- my job title -->
-          <div
-            class="relative bottom-4 flex justify-center items-center h-10 w-50 bg-neutral-700 rounded-2xl"
-          >
-            <h2 class="font-sans font-normal text-base text-center">
-              Technology Enthusiast
-            </h2>
-          </div>
-        </div>
-        <hr class="border-t-1 border-gray-700 mx-auto w-1/2" />
-        <!-- lower left side -->
-        <div
-          class="flex flex-col items-center justify-evenly h-105 bg-neutral-800 rounded-2xl"
-        >
-          <!-- email   -->
-          <div
-            class="flex flex-row items-center justify-center h-25 w-full gap-y-4 bg-neutral-800 rounded-2xl"
-          >
-            <!-- email icon -->
-            <div
-              class="flex flex-row items-center justify-end h-20 w-1/4 bg-neutral-800 rounded-2xl"
-            >
-              <div
-                class="flex flex-row items-center justify-center w-10 h-10 p-2 bg-neutral-700 rounded-md"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25h-15a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0 0 19.5 4.5h-15a2.25 2.25 0 0 0-2.25 2.25m19.5 0v.243a2.25 2.25 0 0 1-1.07 1.916l-7.5 4.615a2.25 2.25 0 0 1-2.36 0L3.32 8.91a2.25 2.25 0 0 1-1.07-1.916V6.75"
-                  />
-                </svg>
-              </div>
-            </div>
-            <!-- email address -->
-            <div
-              class="flex flex-col items-center justify-evenly h-20 w-3/4 bg-neutral-800 rounded-2xl"
-            >
-              <div
-                class="flex justify-start items-end pl-7 h-10 w-full bg-neutral-800 rounded-2xl"
-              >
-                <h4 class="font-sans font-normal text-base text-center">
-                  Email
-                </h4>
-              </div>
-              <div
-                class="flex justify-start items-start pl-7 h-10 w-full bg-neutral-800 rounded-2xl"
-              >
-                <h4 class="font-sans font-normal text-sm text-center">
-                  abdullahmukmin93@gmail.com
-                </h4>
-              </div>
-            </div>
-          </div>
-          <!-- phone -->
-          <div
-            class="flex flex-row items-center justify-center h-25 w-full gap-y-4 bg-neutral-800 rounded-2xl"
-          >
-            <!-- phone icon -->
-            <div
-              class="flex flex-row items-center justify-end h-20 w-1/4 bg-neutral-800 rounded-2xl"
-            >
-              <div
-                class="flex flex-row items-center justify-center w-10 h-10 p-2 bg-neutral-700 rounded-md"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M10.5 1.5H8.25A2.25 2.25 0 0 0 6 3.75v16.5a2.25 2.25 0 0 0 2.25 2.25h7.5A2.25 2.25 0 0 0 18 20.25V3.75a2.25 2.25 0 0 0-2.25-2.25H13.5m-3 0V3h3V1.5m-3 0h3m-3 18.75h3"
-                  />
-                </svg>
-              </div>
-            </div>
-            <!-- phone number -->
-            <div
-              class="flex flex-col items-center justify-evenly h-20 w-3/4 bg-neutral-800 rounded-2xl"
-            >
-              <div
-                class="flex justify-start items-end pl-7 h-10 w-full bg-neutral-800 rounded-2xl"
-              >
-                <h4 class="font-sans font-normal text-base text-center">
-                  Phone Number
-                </h4>
-              </div>
-              <div
-                class="flex justify-start items-start pl-7 h-10 w-full bg-neutral-800 rounded-2xl"
-              >
-                <h4 class="font-sans font-normal text-sm text-center">
-                  +60194023141
-                </h4>
-              </div>
-            </div>
-          </div>
-          <!-- location -->
-          <div
-            class="flex flex-row items-center justify-center h-25 w-full gap-y-4 bg-neutral-800 rounded-2xl"
-          >
-            <!-- location icon -->
-            <div
-              class="flex flex-row items-center justify-end h-20 w-1/4 bg-neutral-800 rounded-2xl"
-            >
-              <div
-                class="flex flex-row items-center justify-center w-10 h-10 p-2 bg-neutral-700 rounded-md"
-              >
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke-width="1.5"
-                  stroke="currentColor"
-                  class="size-6"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M15 10.5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z"
-                  />
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1 1 15 0Z"
-                  />
-                </svg>
-              </div>
-            </div>
-            <!-- location address -->
-            <div
-              class="flex flex-col items-center justify-evenly h-20 w-3/4 bg-neutral-800 rounded-2xl"
-            >
-              <div
-                class="flex justify-start items-end pl-7 h-10 w-full bg-neutral-800 rounded-2xl"
-              >
-                <h4 class="font-sans font-normal text-base text-center">
-                  Location
-                </h4>
-              </div>
-              <div
-                class="flex justify-start items-start pl-7 h-10 w-full bg-neutral-800 rounded-2xl"
-              >
-                <h4 class="font-sans font-normal text-sm text-center">
-                  Rawang, Selangor, Malaysia
-                </h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <!-- bottom left side -->
-        <div
-          class="flex flex-row items-start justify-center h-20 bg-neutral-800 rounded-2xl"
-        >
-          <div
-            class="flex flex-row items-center justify-between h-10 w-35 bg-neutral-800 rounded-2xl"
-          >
-            <a
-              href="https://linkedin.com/in/abdullahmukmin"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Linkedin"
-            >
-              <ion-icon
-                name="logo-linkedin"
-                alt="Linkedin logo"
-                class="w-8 h-8 text-gray-500 hover:text-black transition duration-300"
-              ></ion-icon>
-            </a>
-            <a
-              href="https://github.com/inimukmin"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="GitHub"
-            >
-              <ion-icon
-                name="logo-github"
-                alt="GitHub logo"
-                class="w-8 h-8 text-gray-500 hover:text-black transition duration-300"
-              ></ion-icon>
-            </a>
-
-            <a
-              href="https://www.credly.com/users/abdullah-mukmin"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Credly"
-            >
-              <img
-                alt="Credly logo"
-                src="./assets/icon-credly.svg"
-                class="w-8 h-8 hover:scale-110 hover:shadow-md transition duration-300"
-              />
-            </a>
-          </div>
-        </div>
-      </div>
-      <!-- right side -->
-      <div
-        class="basis-280 h-200 w-24 bg-neutral-800 border border-t-1 border-gray-700 rounded-2xl text-xl text-white font-medium"
-      >
-        <!-- upper right side -->
-        <div
-          class="flex flex-col items-center justify-center h-60 bg-neutral-800 rounded-2xl"
-        >
-          <!-- about me -->
-          <div
-            class="flex flex-row items-center justify-center h-15 w-full bg-neutral-800 rounded-2xl"
-          >
-            <!-- about me title -->
-            <div
-              class="relative flex items-end h-full w-full bg-neutral-800 rounded-2xl"
-            >
-              <h1
-                class="absolute left-1 font-sans font-bold text-3xl text-left pl-6"
-              >
-                About Me
-              </h1>
-            </div>
-            <!-- navigation bar -->
-            <nav
-              class="flex flex-row items-center justify-center gap-x-8 h-full w-full border border-t-1 border-gray-700 bg-neutral-700 rounded-bl-2xl rounded-tr-2xl"
-            >
-              <a
-                href="#"
-                class="px-3 py-2 text-base text-amber-300"
-                aria-current="page"
-                >About</a
-              >
-              <a
-                href="#"
-                class="px-3 py-2 text-base text-gray-200 hover:text-amber-200"
-                >Resume</a
-              >
-              <a
-                href="#"
-                class="px-3 py-2 text-base text-gray-200 hover:text-amber-200"
-                >Projects</a
-              >
-              <a
-                href="#"
-                class="px-3 py-2 text-base text-gray-200 hover:text-amber-200"
-                >Contact</a
-              >
-            </nav>
-          </div>
-          <!-- about me description -->
-          <div class="flex items-center h-45 w-full bg-neutral-800 rounded-2xl">
-            <p class="font-sans font-normal text-lg text-left pl-6">
-              Hi, I’m Abdullah Mukmin, a technology enthusiast transitioning
-              from manufacturing to IT.
-              <br />
-              I’m passionate about cloud computing, DevOps, full-stack
-              development, and generative AI.
-              <br />
-              I enjoy solving problems, learning new technologies, and building
-              scalable, user-friendly systems to create meaningful impact in the
-              IT field.
-            </p>
-          </div>
-        </div>
-        <!-- lower right side -->
-        <div
-          class="flex flex-col items-center justify-center h-140 bg-neutral-800 rounded-2xl"
-        >
-          <!-- what I'm doing -->
-          <div
-            class="relative flex justify-left items-center h-15 w-full bg-neutral-800 rounded-2xl"
-          >
-            <h3
-              class="absolute top-5 left-1 font-sans font-bold text-2xl text-center pl-6"
-            >
-              What I'm Doing
-            </h3>
-          </div>
-          <!-- skill boxes -->
-          <div
-            class="flex flex-wrap flex-row items-center justify-evenly h-125 w-full bg-neutral-800 rounded-2xl"
-          >
-            <!-- skill 1 -->
-            <div
-              class="flex flex-row items-center justify-center h-56 w-116 border border-t-1 border-gray-700 bg-neutral-800 rounded-2xl"
-            >
-              <!-- image skill 1 -->
-              <div
-                class="relative flex flex-row justify-center h-46 w-30 pt-3 bg-neutral-800 rounded-2xl"
-              >
-                <img
-                  src="assets/cloud-devops.png"
-                  alt="Cloud/DevOps"
-                  class="absolute top-5 w-24 h-17 rounded-lg shadow-md"
-                />
-              </div>
-              <!-- description skill 1 -->
-              <div class="h-46 w-70 bg-neutral-800 rounded-2xl">
-                <div
-                  class="relative flex flex-row items-center justify-start h-13 w-70 bg-neutral-800 rounded-2xl"
-                >
-                  <h5
-                    class="absolute left-6 font-sans font-bold text-lg text-left"
-                  >
-                    Cloud/DevOps
-                  </h5>
-                </div>
-                <div class="h-33 w-70 bg-neutral-800 rounded-2xl">
-                  <p
-                    class="font-sans font-normal text-base text-left pt-4 pl-6"
-                  >
-                    Managing cloud infrastructure, automation, and deployment
-                    pipelines to ensure reliability and scalability.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- skill 2 -->
-            <div
-              class="flex flex-row items-center justify-center h-56 w-116 border border-t-1 border-gray-700 bg-neutral-800 rounded-2xl"
-            >
-              <!-- image skill 2 -->
-              <div
-                class="relative flex flex-row justify-center h-46 w-30 pt-3 bg-neutral-800 rounded-2xl"
-              >
-                <img
-                  src="assets/genai.jpg"
-                  alt="GenAI"
-                  class="absolute top-5 w-19 h-19 rounded-lg shadow-md"
-                />
-              </div>
-              <!-- description skill 2 -->
-              <div class="h-46 w-70 bg-neutral-800 rounded-2xl">
-                <div
-                  class="relative flex flex-row items-center justify-start h-13 w-70 bg-neutral-800 rounded-2xl"
-                >
-                  <h5
-                    class="absolute left-6 font-sans font-bold text-lg text-left"
-                  >
-                    Generative AI
-                  </h5>
-                </div>
-                <div class="h-33 w-70 bg-neutral-800 rounded-2xl">
-                  <p
-                    class="font-sans font-normal text-base text-left pt-4 pl-6"
-                  >
-                    Creating simple AI solutions using natural language
-                    processing and image generation.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- skill 3 -->
-            <div
-              class="flex flex-row items-center justify-center h-56 w-116 border border-t-1 border-gray-700 bg-neutral-800 rounded-2xl"
-            >
-              <!-- image skill 3 -->
-              <div
-                class="relative flex flex-row justify-center h-46 w-30 pt-3 bg-neutral-800 rounded-2xl"
-              >
-                <img
-                  src="assets/icon-dev.svg"
-                  alt="Frontend Development"
-                  class="absolute top-5 w-20 h-15 rounded-lg shadow-md"
-                />
-              </div>
-              <!-- description skill 3 -->
-              <div class="h-46 w-70 bg-neutral-800 rounded-2xl">
-                <div
-                  class="relative flex flex-row items-center justify-start h-13 w-70 bg-neutral-800 rounded-2xl"
-                >
-                  <h5
-                    class="absolute left-6 font-sans font-bold text-lg text-left"
-                  >
-                    Frontend Development
-                  </h5>
-                </div>
-                <div class="h-33 w-70 bg-neutral-800 rounded-2xl">
-                  <p
-                    class="font-sans font-normal text-base text-left pt-4 pl-6"
-                  >
-                    Building responsive, user-friendly interfaces using modern
-                    frameworks and technologies.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- skill 4 -->
-            <div
-              class="flex flex-row items-center justify-center h-56 w-116 border border-t-1 border-gray-700 bg-neutral-800 rounded-2xl"
-            >
-              <!-- image skill 4 -->
-              <div
-                class="relative flex flex-row justify-center h-46 w-30 pt-3 bg-neutral-800 rounded-2xl"
-              >
-                <img
-                  src="assets/icon-dev.svg"
-                  alt="Backend Development"
-                  class="absolute top-5 w-20 h-15 rounded-lg shadow-md"
-                />
-              </div>
-              <!-- description skill 4 -->
-              <div class="h-46 w-70 bg-neutral-800 rounded-2xl">
-                <div
-                  class="relative flex flex-row items-center justify-start h-13 w-70 bg-neutral-800 rounded-2xl"
-                >
-                  <h5
-                    class="absolute left-6 font-sans font-bold text-lg text-left"
-                  >
-                    Backend Development
-                  </h5>
-                </div>
-                <div class="h-33 w-70 bg-neutral-800 rounded-2xl">
-                  <p
-                    class="font-sans font-normal text-base text-left pt-4 pl-6"
-                  >
-                    Building and optimizing server-side architecture, APIs, and
-                    databases to ensure seamless and scalable application
-                    performance.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
+    <title>Abdullah Mukmin - Technology Enthusiast</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
@@ -475,5 +13,277 @@
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
     ></script>
+  </head>
+  <body class="bg-neutral-900 text-gray-100">
+    <div class="container mx-auto p-4 sm:p-6 md:p-8 lg:p-12">
+      <div class="flex flex-col md:flex-row gap-6">
+        <!-- Left Column - Profile -->
+        <div class="w-full md:w-96 bg-zinc-800 rounded-2xl p-6">
+          <div class="text-center space-y-4">
+            <img
+              src="assets/profile-photo.jpg"
+              class="w-32 h-32 md:w-40 md:h-40 mx-auto rounded-lg object-cover shadow-lg border-2 border-amber-400"
+              alt="Abdullah Mukmin Profile Photo"
+            />
+            <h1
+              class="text-3xl md:text-4xl font-bold bg-gradient-to-r from-amber-400 to-amber-600 bg-clip-text text-transparent"
+            >
+              Abdullah Mukmin
+            </h1>
+            <p
+              class="text-gray-400 text-base bg-neutral-700 rounded-2xl py-2 font-medium"
+            >
+              Technology Enthusiast <span class="text-amber-400">🚀</span>
+            </p>
+          </div>
+
+          <!-- Key Skills Badges -->
+          <div class="mt-6 grid grid-cols-2 gap-2">
+            <div
+              class="bg-neutral-700 p-2 rounded-lg text-center text-sm font-medium"
+            >
+              Cloud
+            </div>
+            <div
+              class="bg-neutral-700 p-2 rounded-lg text-center text-sm font-medium"
+            >
+              DevOps
+            </div>
+            <div
+              class="bg-neutral-700 p-2 rounded-lg text-center text-sm font-medium"
+            >
+              Web Development
+            </div>
+            <div
+              class="bg-neutral-700 p-2 rounded-lg text-center text-sm font-medium"
+            >
+              Generative AI
+            </div>
+          </div>
+
+          <div class="mt-8 space-y-6">
+            <!-- Contact Info -->
+            <div
+              class="flex items-center gap-4 p-3 bg-neutral-800 rounded-2xl hover:bg-neutral-700 transition"
+            >
+              <div class="p-2 bg-amber-400 rounded-lg">
+                <ion-icon
+                  name="mail-outline"
+                  class="flex items-center text-2xl text-neutral-900"
+                ></ion-icon>
+              </div>
+              <div class="flex-1">
+                <p class="text-xs font-medium text-amber-400">Email</p>
+                <p class="text-sm">abdullahmukmin93@gmail.com</p>
+              </div>
+            </div>
+
+            <!-- <div
+              class="flex items-center gap-4 p-3 bg-neutral-800 rounded-2xl hover:bg-neutral-700 transition"
+            >
+              <div class="p-2 bg-amber-400 rounded-lg">
+                <ion-icon
+                  name="school-outline"
+                  class="text-2xl text-neutral-900"
+                ></ion-icon>
+              </div>
+              <div class="flex-1">
+                <p class="text-xs font-medium text-amber-400">Education</p>
+                <p class="text-sm">BEng in Aerospace Engineering</p>
+                <p class="text-xs text-amber-100">
+                  Moscow Aviation Institute (2018)
+                </p>
+              </div>
+            </div> -->
+
+            <!-- Download Resume Button -->
+            <a
+              href="path/to/resume.pdf"
+              download
+              class="flex items-center justify-center gap-2 p-3 bg-amber-400 text-neutral-900 rounded-2xl font-medium hover:bg-amber-500 transition"
+            >
+              <ion-icon name="download-outline"></ion-icon>
+              Download Resume
+            </a>
+
+            <!-- Social Links -->
+            <div class="flex justify-center gap-6 mt-8">
+              <a
+                href="https://linkedin.com/in/abdullahmukmin"
+                class="text-3xl text-amber-400 hover:text-amber-300 transition"
+                aria-label="LinkedIn Profile"
+              >
+                <ion-icon name="logo-linkedin"></ion-icon>
+              </a>
+              <a
+                href="https://github.com/inimukmin"
+                class="text-3xl text-amber-400 hover:text-amber-300 transition"
+                aria-label="GitHub Profile"
+              >
+                <ion-icon name="logo-github"></ion-icon>
+              </a>
+              <a
+                href="https://www.credly.com/users/abdullah-mukmin"
+                class="w-8 h-8 hover:scale-110 transition"
+                aria-label="Credly Badges"
+              >
+                <img
+                  src="./assets/icon-credly.svg"
+                  alt="Credly Badges"
+                  class="w-full h-full"
+                />
+              </a>
+
+              <a
+                href="https://blog.inimukmin.com"
+                class="text-3xl text-amber-400 hover:text-amber-300 transition"
+                aria-label="Technical Blog"
+              >
+                <ion-icon name="newspaper-outline"></ion-icon>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Column - Content -->
+        <div class="flex-1 bg-zinc-800 rounded-2xl p-6">
+          <!-- Navigation -->
+          <nav
+            class="flex flex-col sm:flex-row gap-2 mb-8 bg-neutral-700 rounded-tr-2xl rounded-bl-2xl p-2"
+          >
+            <a
+              href="#"
+              class="px-4 py-2 bg-neutral-900 rounded-lg text-amber-400"
+              >About</a
+            >
+            <a
+              href="#"
+              class="px-4 py-2 hover:bg-neutral-900 rounded-lg hover:text-amber-300"
+              >Certifications</a
+            >
+            <a
+              href="#"
+              class="px-4 py-2 hover:bg-neutral-900 rounded-lg hover:text-amber-300"
+              >Projects</a
+            >
+            <a
+              href="#"
+              class="px-4 py-2 hover:bg-neutral-900 rounded-lg hover:text-amber-300"
+              >Skills</a
+            >
+          </nav>
+
+          <!-- Professional Summary -->
+          <section class="mb-12">
+            <h2 class="text-2xl md:text-3xl font-bold mb-6 text-amber-400">
+              A Technology Enthusiast Aspiring to Transition from Manufacturing
+              to IT
+            </h2>
+            <p class="text-base leading-relaxed">
+              With 4+ years in manufacturing production and quality control, I'm
+              now pursuing my passion for IT through:
+            </p>
+            <ul class="list-disc list-inside mt-4 space-y-2 text-amber-100">
+              <li>Professional certifications in AWS and Azure</li>
+              <li>Hands-on labs and personal projects</li>
+              <li>Open source contributions</li>
+              <li>Technical blogging about my learning journey</li>
+            </ul>
+          </section>
+
+          <!-- Certifications -->
+          <section class="mb-12">
+            <h3
+              class="text-xl font-bold mb-6 text-amber-400 border-b-2 border-amber-400 pb-2"
+            >
+              Certifications
+            </h3>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div
+                class="bg-neutral-700 p-6 rounded-2xl hover:bg-neutral-600 transition"
+              >
+                <div class="flex items-center gap-4 mb-3">
+                  <img
+                    src="assets/aws-saa-icon.png"
+                    class="w-16 h-16"
+                    alt="AWS"
+                  />
+                  <h4 class="text-lg font-bold">
+                    AWS Solution Architect Associate
+                  </h4>
+                </div>
+                <p class="text-sm">Completed Dec 2024</p>
+              </div>
+
+              <div
+                class="bg-neutral-700 p-6 rounded-2xl hover:bg-neutral-600 transition"
+              >
+                <div class="flex items-center gap-4 mb-3">
+                  <img
+                    src="assets/azure-sa-icon.png"
+                    class="w-16 h-16"
+                    alt="IBM"
+                  />
+                  <h4 class="text-lg font-bold">
+                    Microsoft Azure Solution Architect
+                  </h4>
+                </div>
+                <p class="text-sm">Completed Aug 2024</p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Technical Projects -->
+          <section>
+            <h3
+              class="text-xl font-bold mb-6 text-amber-400 border-b-2 border-amber-400 pb-2"
+            >
+              Technical Projects
+            </h3>
+            <div class="grid gap-4">
+              <div
+                class="bg-neutral-700 p-6 rounded-2xl hover:bg-neutral-600 transition"
+              >
+                <div class="flex justify-between items-start">
+                  <div>
+                    <h4 class="font-bold mb-2">Three-tier architecture</h4>
+                    <p class="text-sm">
+                      Design and configure a high available three-tier
+                      architecture on AWS
+                    </p>
+                  </div>
+                  <a
+                    href="https://github.com/inimukmin/three-tier-architecture"
+                    class="text-amber-400 hover:text-amber-300 flex items-center gap-1"
+                  >
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+              </div>
+
+              <div
+                class="bg-neutral-700 p-6 rounded-2xl hover:bg-neutral-600 transition"
+              >
+                <div class="flex justify-between items-start">
+                  <div>
+                    <h4 class="font-bold mb-2">Cloud Resume Challenge</h4>
+                    <p class="text-sm">
+                      Implementing AWS infrastructure for this portfolio website
+                      using S3, CloudFront, and CI/CD pipeline
+                    </p>
+                  </div>
+                  <a
+                    href="https://github.com/inimukmin/cloud-resume"
+                    class="text-amber-400 hover:text-amber-300 flex items-center gap-1"
+                  >
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
