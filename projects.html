@@ -122,7 +122,7 @@
               >
                 <ion-icon name="logo-github"></ion-icon>
               </a>
-              <a
+              <!-- <a
                 href="https://www.credly.com/users/abdullah-mukmin"
                 class="w-8 h-8 hover:scale-110 transition"
                 aria-label="Credly Badges"
@@ -132,7 +132,7 @@
                   alt="Credly Badges"
                   class="w-full h-full"
                 />
-              </a>
+              </a> -->
 
               <a
                 href="https://blog.inimukmin.com"
@@ -162,133 +162,290 @@
               >Certifications</a
             >
             <a
+              href="skills.html"
+              class="px-4 py-2 hover:bg-neutral-900 rounded-lg hover:text-amber-300"
+              >Skills</a
+            >
+            <a
               href="projects.html"
               class="px-4 py-2 bg-neutral-900 rounded-lg text-amber-400"
               >Projects</a
-            >
-            <a
-              href="#"
-              class="px-4 py-2 hover:bg-neutral-900 rounded-lg hover:text-amber-300"
-              >Skills</a
             >
           </nav>
 
           <!-- Technical Projects -->
           <section class="relative">
-            <h3
-              class="text-2xl md:text-3xl font-bold mb-6 text-amber-400 border-b-2 border-amber-400"
-            >
+            <h3 class="text-2xl md:text-3xl font-bold mb-6 text-amber-400">
               Technical Projects
             </h3>
             <div class="grid gap-4">
+              <!-- Project 1 -->
               <div
                 class="bg-neutral-700 p-6 rounded-2xl hover:bg-neutral-600 transition"
               >
-                <div class="flex justify-between items-start relative">
-                  <div>
+                <div
+                  class="flex flex-col md:flex-row items-center md:items-start gap-4"
+                >
+                  <!-- Text Content -->
+                  <div class="flex-1">
                     <h4 class="font-bold mb-2">Three-Tier Architecture</h4>
                     <p class="text-sm">
                       Designed and configured a highly available three-tier
                       architecture on AWS
                     </p>
+
+                    <!-- Icons Section -->
+                    <div class="flex gap-4 mt-3">
+                      <a
+                        href="https://github.com/inimukmin/three-tier-architecture"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                      >
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                      <a
+                        href="https://blog.inimukmin.com"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                        aria-label="Technical Blog"
+                      >
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                      </a>
+                    </div>
                   </div>
-                  <a
-                    href="https://github.com/inimukmin/three-tier-architecture"
-                    class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 flex items-center transition gap-1 absolute right-10"
-                  >
-                    <ion-icon name="logo-github"></ion-icon>
-                  </a>
-                  <a
-                    href="https://blog.inimukmin.com"
-                    class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 flex items-center transition absolute right-1"
-                    aria-label="Technical Blog"
-                  >
-                    <ion-icon name="newspaper-outline"></ion-icon>
-                  </a>
+
+                  <!-- Image -->
+                  <div class="w-full md:w-1/2">
+                    <img
+                      src="assets/my-portfolio-website.png"
+                      alt="Three-Tier Architecture"
+                      class="w-full rounded-lg"
+                    />
+                  </div>
                 </div>
               </div>
 
+              <!-- Project 2 -->
               <div
                 class="bg-neutral-700 p-6 rounded-2xl hover:bg-neutral-600 transition"
               >
-                <div class="flex justify-between items-start relative">
-                  <div>
+                <div
+                  class="flex flex-col md:flex-row items-center md:items-start gap-4"
+                >
+                  <!-- Text Content -->
+                  <div class="flex-1">
                     <h4 class="font-bold mb-2">Cloud Resume Challenge</h4>
                     <p class="text-sm">
-                      Built a portfolio site with HTML, CSS, Tailwind CSS, and
-                      JavaScript, deployed via a CI/CD pipeline on AWS S3 and
-                      CloudFront
+                      Built a portfolio website with HTML, CSS, Tailwind CSS,
+                      and JavaScript, deployed via a CI/CD pipeline on AWS S3
+                      and CloudFront
                     </p>
+
+                    <!-- Icons Section -->
+                    <div class="flex gap-4 mt-3">
+                      <a
+                        href="https://github.com/inimukmin/my-personal-portfolio"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                      >
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                      <a
+                        href="https://blog.inimukmin.com"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                        aria-label="Technical Blog"
+                      >
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                      </a>
+                    </div>
                   </div>
-                  <a
-                    href="https://github.com/inimukmin/my-personal-portfolio"
-                    class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 flex items-center transition gap-1 absolute right-10"
-                  >
-                    <ion-icon name="logo-github"></ion-icon>
-                  </a>
-                  <a
-                    href="https://blog.inimukmin.com"
-                    class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 flex items-center transition absolute right-1"
-                    aria-label="Technical Blog"
-                  >
-                    <ion-icon name="newspaper-outline"></ion-icon>
-                  </a>
+
+                  <!-- Image -->
+                  <div class="w-full md:w-1/2">
+                    <img
+                      src="assets/my-portfolio-website.png"
+                      alt="Cloud Resume Challenge"
+                      class="w-full rounded-lg"
+                    />
+                  </div>
                 </div>
               </div>
 
+              <!-- Project 3 -->
               <div
                 class="bg-neutral-700 p-6 rounded-2xl hover:bg-neutral-600 transition"
               >
-                <div class="flex justify-between items-start relative">
-                  <div>
+                <div
+                  class="flex flex-col md:flex-row items-center md:items-start gap-4"
+                >
+                  <!-- Text Content -->
+                  <div class="flex-1">
                     <h4 class="font-bold mb-2">NCAA Game Highlights</h4>
                     <p class="text-sm">
                       Used RapidAPI to obtain NCAA game highlights using a
-                      Docker container and AWS Media Convert to convert the
-                      media file
+                      Docker container and AWS Media Convert to process media
+                      files
                     </p>
+
+                    <!-- Icons Section -->
+                    <div class="flex gap-4 mt-3">
+                      <a
+                        href="https://github.com/inimukmin/NCAA-game-highlights"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                      >
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                      <a
+                        href="https://blog.inimukmin.com"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                        aria-label="Technical Blog"
+                      >
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                      </a>
+                    </div>
                   </div>
-                  <a
-                    href="https://github.com/inimukmin/NCAA-game-highlights"
-                    class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 flex items-center transition gap-1 absolute right-10"
-                  >
-                    <ion-icon name="logo-github"></ion-icon>
-                  </a>
-                  <a
-                    href="https://blog.inimukmin.com"
-                    class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 flex items-center transition absolute right-1"
-                    aria-label="Technical Blog"
-                  >
-                    <ion-icon name="newspaper-outline"></ion-icon>
-                  </a>
+
+                  <!-- Image -->
+                  <div class="w-full md:w-1/2">
+                    <img
+                      src="assets/archi-NCAA-game-highlights.png"
+                      alt="NCAA Game Highlights"
+                      class="w-full rounded-lg"
+                    />
+                  </div>
                 </div>
               </div>
 
+              <!-- Project 4 -->
               <div
                 class="bg-neutral-700 p-6 rounded-2xl hover:bg-neutral-600 transition"
               >
-                <div class="flex justify-between items-start relative">
-                  <div>
+                <div
+                  class="flex flex-col md:flex-row items-center md:items-start gap-4"
+                >
+                  <!-- Text Content -->
+                  <div class="flex-1">
                     <h4 class="font-bold mb-2">Containerized Sports API</h4>
                     <p class="text-sm">
                       Built a containerized API management system using Amazon
                       ECS, API Gateway and an external Sports API for querying
                       real-time sports data
                     </p>
+
+                    <!-- Icons Section -->
+                    <div class="flex gap-4 mt-3">
+                      <a
+                        href="https://github.com/inimukmin/containerized-sports-api"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                      >
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                      <a
+                        href="https://blog.inimukmin.com"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                        aria-label="Technical Blog"
+                      >
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                      </a>
+                    </div>
                   </div>
-                  <a
-                    href="https://github.com/inimukmin/containerized-sports-api"
-                    class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 flex items-center transition gap-1 absolute right-10"
-                  >
-                    <ion-icon name="logo-github"></ion-icon>
-                  </a>
-                  <a
-                    href="https://blog.inimukmin.com"
-                    class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 flex items-center transition absolute right-1"
-                    aria-label="Technical Blog"
-                  >
-                    <ion-icon name="newspaper-outline"></ion-icon>
-                  </a>
+
+                  <!-- Image -->
+                  <div class="w-full md:w-1/2">
+                    <img
+                      src="assets/archi-containerized-sports-api.png"
+                      alt="Containerized Sports API"
+                      class="w-full rounded-lg"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 5 -->
+              <div
+                class="bg-neutral-700 p-6 rounded-2xl hover:bg-neutral-600 transition"
+              >
+                <div
+                  class="flex flex-col md:flex-row items-center md:items-start gap-4"
+                >
+                  <!-- Text Content -->
+                  <div class="flex-1">
+                    <h4 class="font-bold mb-2">NBA Data Lake</h4>
+                    <p class="text-sm">
+                      Created an NBA analytics data lake with Amazon S3, AWS
+                      Glue, and Athena for automated data storage and querying
+                    </p>
+
+                    <!-- Icons Section -->
+                    <div class="flex gap-4 mt-3">
+                      <a
+                        href="https://github.com/inimukmin/NBA-data-lake"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                      >
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                      <a
+                        href="https://blog.inimukmin.com"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                        aria-label="Technical Blog"
+                      >
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- Image -->
+                  <div class="w-full md:w-1/2">
+                    <img
+                      src="assets/7-query_results.png"
+                      alt="NBA Data Lake"
+                      class="w-full rounded-lg"
+                    />
+                  </div>
+                </div>
+              </div>
+
+              <!-- Project 6 -->
+              <div
+                class="bg-neutral-700 p-6 rounded-2xl hover:bg-neutral-600 transition"
+              >
+                <div
+                  class="flex flex-col md:flex-row items-center md:items-start gap-4"
+                >
+                  <!-- Text Content -->
+                  <div class="flex-1">
+                    <h4 class="font-bold mb-2">
+                      NBA Game Day Notifications / Sports Alerts System
+                    </h4>
+                    <p class="text-sm">
+                      Built a real-time NBA game day alert system using Amazon
+                      SNS, AWS Lambda, EventBridge, Python, and NBA APIs to
+                      notify users via SMS/Email
+                    </p>
+
+                    <!-- Icons Section -->
+                    <div class="flex gap-4 mt-3">
+                      <a
+                        href="https://github.com/inimukmin/NBA-gameday-notifications"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                      >
+                        <ion-icon name="logo-github"></ion-icon>
+                      </a>
+                      <a
+                        href="https://blog.inimukmin.com"
+                        class="text-2xl text-amber-400 hover:text-amber-300 hover:scale-110 transition flex items-center"
+                        aria-label="Technical Blog"
+                      >
+                        <ion-icon name="newspaper-outline"></ion-icon>
+                      </a>
+                    </div>
+                  </div>
+
+                  <!-- Image -->
+                  <div class="w-full md:w-1/2">
+                    <img
+                      src="assets/archi-NBA-gameday-notifications.png"
+                      alt="NBA Game Day Notifications"
+                      class="w-full rounded-lg"
+                    />
+                  </div>
                 </div>
               </div>
             </div>
