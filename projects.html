@@ -204,29 +204,41 @@
         <!-- Right Column - Content -->
         <div class="flex-1 bg-zinc-800 rounded-2xl p-6">
           <!-- Navigation -->
-          <nav
-            class="flex flex-col sm:flex-row gap-2 mb-8 bg-neutral-700 rounded-tr-2xl rounded-bl-2xl p-2"
-          >
-            <a
-              href="index.html"
-              class="px-4 py-2 hover:bg-neutral-900 rounded-lg hover:text-amber-300"
-              >About</a
+          <nav class="relative">
+            <!-- Burger Icon for Mobile -->
+            <button
+              id="menu-toggle"
+              class="sm:hidden p-2 mb-8 rounded-lg bg-neutral-700 text-amber-400 flex items-center justify-center hover:bg-neutral-900 hover:text-amber-300"
             >
-            <a
-              href="projects.html"
-              class="px-4 py-2 bg-neutral-900 rounded-lg text-amber-400"
-              >Projects</a
+              <ion-icon name="menu-outline" class="text-3xl"></ion-icon>
+            </button>
+
+            <!-- Navigation Links -->
+            <div
+              id="nav-links"
+              class="hidden flex flex-col sm:flex-row gap-2 mb-8 bg-neutral-700 p-2 rounded-tr-2xl rounded-bl-2xl sm:flex sm:flex-row sm:bg-neutral-700 sm:p-2 sm:rounded-tr-2xl sm:rounded-bl-2xl"
             >
-            <a
-              href="certifications.html"
-              class="px-4 py-2 hover:bg-neutral-900 rounded-lg hover:text-amber-300"
-              >Certifications</a
-            >
-            <a
-              href="others.html"
-              class="px-4 py-2 hover:bg-neutral-900 rounded-lg hover:text-amber-300"
-              >Others</a
-            >
+              <a
+                href="index.html"
+                class="px-4 py-2 hover:bg-neutral-900 rounded-lg hover:text-amber-300"
+                >About</a
+              >
+              <a
+                href="projects.html"
+                class="px-4 py-2 bg-neutral-900 rounded-lg text-amber-400"
+                >Projects</a
+              >
+              <a
+                href="certifications.html"
+                class="px-4 py-2 hover:bg-neutral-900 rounded-lg hover:text-amber-300"
+                >Certifications</a
+              >
+              <a
+                href="others.html"
+                class="px-4 py-2 hover:bg-neutral-900 rounded-lg hover:text-amber-300"
+                >Others</a
+              >
+            </div>
           </nav>
 
           <!-- Technical Projects -->
@@ -770,6 +782,6 @@
         </div>
       </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/flowbite@3.1.2/dist/flowbite.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
